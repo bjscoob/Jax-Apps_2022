@@ -1,4 +1,5 @@
 import "./styles.css";
+import Interface from "./interface.js";
 
 export default function App() {
   return (
@@ -35,6 +36,7 @@ export default function App() {
           src="https://jax-apps.com/images/ja_logo.svg"
         />
       </div>
+      <Interface />
     </div>
   );
 }
