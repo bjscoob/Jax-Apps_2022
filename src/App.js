@@ -35,6 +35,11 @@ export default function App() {
           id="logo"
           src="https://jax-apps.com/images/ja_logo.svg"
         />
+        <img
+          alt="logo text"
+          id="logo_text"
+          src="https://jax-apps.com/images/ja_text.png"
+        />
       </div>
       <Interface />
     </div>
