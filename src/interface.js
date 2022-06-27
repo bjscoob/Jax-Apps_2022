@@ -36,7 +36,9 @@ class Interface extends React.Component {
             </div>
           </div>
         </div>
-        <div class="grid-item">2</div>
+        <div class="grid-item">
+          <div class="textCont"></div>
+        </div>
         <div class="grid-item">3</div>
       </div>
     );
