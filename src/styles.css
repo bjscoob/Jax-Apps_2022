@@ -70,6 +70,7 @@
   margin-top: 20px;
   animation: bigTextEntry 2500ms ease-in-out forwards;
   animation-delay: 2000ms;
+  overflow: auto !important;
 }
 
 .menuGrid {
@@ -141,6 +142,32 @@
   transition-duration: 0.5s;
   transform: scale(0.95);
 }
+hr {
+  height: 1px;
+  margin: auto 0;
+  color: white;
+}
+#bannerGrid {
+  display: grid;
+  grid-template-columns: auto 20% auto;
+  height: 20%;
+  margin-top: -10px;
+}
+#circleImg {
+  padding: 3px;
+}
+
+h1,
+p {
+  padding: 15px;
+}
+h1 {
+  color: white;
+}
+p {
+  color: #1fb18c;
+}
+
 .flip-container {
   perspective: 1000px;
   width: 100%;
