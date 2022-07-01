@@ -58,7 +58,7 @@
   padding-top: 5%;
 }
 .textCont {
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(255, 255, 255, 0.9);
   height: 80%;
   width: 90%;
   margin: auto;
@@ -149,7 +149,7 @@ hr {
 }
 #bannerGrid {
   display: grid;
-  grid-template-columns: auto 20% auto;
+  grid-template-columns: 5% 20% auto;
   height: 20%;
   margin-top: -10px;
 }
@@ -157,15 +157,46 @@ hr {
   padding: 3px;
 }
 
+.collapsible {
+  background-color: rgba(30, 139, 171, 0.5);
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 50%;
+  margin-left: 25%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 26px;
+}
+
+.active,
+.collapsible:hover {
+  background-color: rgb(30, 139, 171);
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255, 0.2);
+}
+
 h1,
 p {
   padding: 15px;
+  font-family: Roboto, sans-serif;
 }
 h1 {
   color: white;
+  font-size: 44px;
+  text-shadow: 2px 2px 3px black;
+  margin-top: -40px;
 }
 p {
   color: #1fb18c;
+  font-size: 17px;
+  line-height: 200%;
 }
 
 .flip-container {
