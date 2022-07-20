@@ -18,7 +18,7 @@ class HomePage extends React.Component {
 
   render() {
     return (
-      <div class="homePage">
+      <div>
         <div id="bannerGrid">
           <hr />
           <img
@@ -31,7 +31,7 @@ class HomePage extends React.Component {
           <hr />
         </div>
         <h1>
-          Welcome to<span style={{ color: "#1E8BAB" }}> Planet</span>{" "}
+          Welcome to<span style={{ color: "#3bb5d9" }}> Planet</span>{" "}
           <span style={{ color: "#1FB18C" }}>JAX </span>
         </h1>
 
@@ -102,10 +102,10 @@ class HomePage extends React.Component {
         >
           <p>
             {" "}
-            But it doesn’t end there - how many people in IT have you known to
-            just do what's required and leave you with a product FULL of bugs?
-            My goal is to change the interpersonal behaviors of the IT industry.
-            Good works are rooted in good communication and collaboration.
+            How many people in IT have you known to just do what's required and
+            leave you with a product FULL of bugs? My goal is to change the
+            interpersonal behaviors of the IT industry. Good works are rooted in
+            good communication and collaboration.
           </p>
         </div>
         <button
