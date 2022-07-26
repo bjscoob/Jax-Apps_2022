@@ -67,7 +67,25 @@ class Interface extends React.Component {
         <div class="grid-item">
           <div class="contentContainer">{this.state.currentView}</div>
         </div>
-        <div class="grid-item">3</div>
+        <div class="grid-item">
+          <div class="carouselCont">
+            <div>
+              <img
+                alt="upArrow"
+                id="upArrow"
+                src="https://jax-apps.com/images/ja_arrow.svg"
+              />
+            </div>
+            <div class="carousel"></div>
+            <div>
+              <img
+                alt="downArrow"
+                id="downArrow"
+                src="https://jax-apps.com/images/ja_arrow.svg"
+              />
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

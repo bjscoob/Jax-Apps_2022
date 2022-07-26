@@ -25,8 +25,8 @@ class HomePage extends React.Component {
             alt="circleImg"
             id="circleImg"
             src="https://jax-apps.com/images/ja_house.svg"
-            width="100%"
-            height="100%"
+            width="100px"
+            height="100px"
           />
           <hr />
         </div>

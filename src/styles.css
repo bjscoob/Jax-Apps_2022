@@ -149,12 +149,15 @@ hr {
 }
 #bannerGrid {
   display: grid;
-  grid-template-columns: 5% 20% auto;
+  grid-template-columns: auto 100px auto;
   height: 20%;
   margin-top: -10px;
 }
 #circleImg {
   padding: 3px;
+}
+#aboutmeImg {
+  padding: 13px;
 }
 
 .collapsible {
@@ -188,16 +191,18 @@ hr {
 
 h1,
 p {
-  padding: 15px;
   font-family: Roboto, sans-serif;
 }
 h1 {
+  padding: 0px;
   color: white;
   font-size: 44px;
   text-shadow: 2px 2px 3px black;
-  margin-top: -35px;
+  margin-top: -15px;
+  text-align: center;
 }
 p {
+  padding: 15px;
   color: #1fb18c;
   font-size: 17px;
   line-height: 200%;
@@ -292,6 +297,33 @@ p {
   max-height: 100vh;
   margin: auto;
 }
+.carouselCont {
+  height: 80%;
+  display: grid;
+  grid-template-rows: 20% auto 20%;
+  margin-top: 10%;
+}
+#upArrow,
+#downArrow {
+  opacity: 0;
+  display: block;
+  margin: 0 auto;
+  height: 70%;
+  width: 90%;
+}
+#upArrow {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  animation: upFlow 3600ms ease-in-out infinite;
+}
+#downArrow {
+  animation: downFlow 3600ms ease-in-out infinite;
+  animation-delay: 1800ms;
+}
+
 /* Here using -webkit, we make angle 
 of 45 degree of falling star */
 .sky {
@@ -708,5 +740,63 @@ for shooting effect */
     height: 80%;
     width: 90%;
     visibility: visible;
+  }
+}
+@keyframes upFlow {
+  0% {
+    margin-top: 10%;
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.25;
+  }
+  20% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0.25;
+  }
+  40% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 0.25;
+  }
+  50% {
+    margin-top: 0px;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 0px;
+    opacity: 0;
+  }
+}
+@keyframes downFlow {
+  0% {
+    margin-top: 0px;
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.25;
+  }
+  20% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0.25;
+  }
+  40% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 0.25;
+  }
+  50% {
+    margin-top: 10%;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 10%;
+    opacity: 0;
   }
 }
