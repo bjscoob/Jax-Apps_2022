@@ -9,8 +9,14 @@ class Interface extends React.Component {
       currentView: <HomePage />,
       currentState: 1
     };
+    this.portfolio = this.getPortfolio();
   }
-
+  async getPortfolio() {
+    const response = await fetch("https://jax-apps.com/portfolio.json");
+    const json = await response.json();
+    console.log(json);
+    console.log("Bleh");
+  }
   render() {
     return (
       <div class="interfaceGrid">
