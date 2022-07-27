@@ -323,7 +323,10 @@ p {
   animation: downFlow 3600ms ease-in-out infinite;
   animation-delay: 1800ms;
 }
-
+.caroImg {
+  display: block;
+  margin: auto;
+}
 /* Here using -webkit, we make angle 
 of 45 degree of falling star */
 .sky {
