@@ -83,24 +83,30 @@ class Interface extends React.Component {
               />
             </div>
             <div class="carousel">
-              <img
-                class="caroImg"
-                src="https://jax-apps.com/images/aboutme1.png"
-                width="80px"
-                height="80px"
-              />
-              <img
-                class="caroImg"
-                src="https://jax-apps.com/images/aboutme1.png"
-                width="80px"
-                height="80px"
-              />
-              <img
-                class="caroImg"
-                src="https://jax-apps.com/images/aboutme1.png"
-                width="80px"
-                height="80px"
-              />
+              <div>
+                <img
+                  alt="caroImg"
+                  class="caroImg"
+                  id="img1"
+                  src="https://jax-apps.com/images/aboutme1.png"
+                />
+              </div>
+              <div id="img2Cont">
+                <img
+                  alt="caroImg"
+                  class="caroImg"
+                  id="img2"
+                  src="https://jax-apps.com/images/aboutme1.png"
+                />
+              </div>
+              <div>
+                <img
+                  alt="caroImg"
+                  class="caroImg"
+                  id="img3"
+                  src="https://jax-apps.com/images/aboutme1.png"
+                />
+              </div>
             </div>
             <div>
               <img
